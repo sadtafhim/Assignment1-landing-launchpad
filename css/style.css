@@ -228,13 +228,15 @@ header div button {
     margin-bottom: 24px;
 }
 
-.reviewer{
+.reviewer {
     display: flex;
     flex-direction: row;
 }
-.reviewer-picture{
+
+.reviewer-picture {
     margin-right: 12px;
 }
+
 .review-heading {
     font-size: 24px;
     font-weight: 700;
@@ -247,3 +249,103 @@ header div button {
     max-width: 318px;
     margin-bottom: 24px;
 }
+
+/* template highlight section */
+.template-highlight {
+    background-color: white;
+    max-width: 1140px;
+    height: 696px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 116px;
+    border-radius: 14px;
+}
+
+.highlight-header {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.highlight-text {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.highlight-button {
+    margin-bottom: 20px;
+}
+
+.highlight-image {
+    max-width: 840px;
+    height: 365px;
+    border-radius: 48px;
+}
+
+/* connect-secion */
+.connecting-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 116px;
+    margin-bottom: 14px;
+}
+
+.form-header {
+    font-size: 97px;
+    font-weight: 700;
+    max-width: 528px;
+}
+
+.form-body {
+    display: flex;
+    flex-direction: column;
+    width: 497px;
+}
+
+.form-body label {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.form-body input {
+    background-color: white;
+    padding-left: 32px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 10px;
+    margin-bottom: 19px;
+    border-color: #D6DDED;
+}
+
+.form-body textarea {
+    height: 135px;
+    padding-left: 32px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 10px;
+    margin-bottom: 19px;
+    border-color: #D6DDED;
+}
+
+.form-button{
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #4E47FF;
+    padding: 19px 0px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+}
+
+/* footer */
