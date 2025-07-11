@@ -104,4 +104,69 @@ header div button{
     margin-top: 37px;
 }
 
-/*  */
+/* Main Section */
+
+.main-section{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* live preview */
+.live-preview{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 116px;
+}
+
+.live-preview-image{
+    border-radius: 48px;
+}
+.live-preview-text-section{
+    max-width: 517px;
+}
+.live-preview-header{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 23px;
+}
+.live-preview-text{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 23px;
+}
+
+/* Brand metrics */
+.brand-metrics{
+    background-color: rgba(78, 71, 255, .1);
+    height: 306px;
+    margin-top: 116px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 24px;
+}
+.brand-header{
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.metric-numbers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 856px;
+    margin-top: 40px;
+}
+
+.number{
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.caption{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
