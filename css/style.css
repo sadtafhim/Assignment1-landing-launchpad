@@ -72,6 +72,12 @@ body {
     padding: 12px 36px;
     border: none;
     border-radius: 10px;
+    transition: padding 2s, color 2s;
+}
+.button-style:hover{
+    padding: 18px 42px;
+    color: black;
+    background-color: gold;
 }
 
 /* header */
@@ -346,8 +352,13 @@ header div button {
     border: none;
     border-radius: 10px;
     width: 100%;
+    transition: padding 2s, color 2s;
 }
-
+.form-button:hover{
+    padding: 25px 10px;
+    color: black;
+    background-color: gold;
+}
 /* footer */
 footer{
     background-color: white;
